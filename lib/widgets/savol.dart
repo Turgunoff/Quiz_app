@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Savol extends StatelessWidget {
+class Question extends StatelessWidget {
   final String question;
   final List<Map<String, dynamic>> answers;
   final Function answerQuestion;
 
-  Savol(this.question, this.answers, this.answerQuestion);
+  Savol(this.question, this.answer, this.answerQuestion)
 
   @override
   Widget build(BuildContext context) {
