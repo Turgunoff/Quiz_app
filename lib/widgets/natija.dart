@@ -19,8 +19,8 @@ class Natija extends StatelessWidget {
           ),
           ElevatedButton.icon(
             onPressed: restart,
-            icon: Icon(Icons.restart_alt),
-            label: Text('RESTART'),
+            icon: const Icon(Icons.restart_alt),
+            label: const Text('RESTART'),
           )
         ],
       ),
