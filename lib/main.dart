@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application/widgets/Savol.dart';
-import 'package:flutter_application/widgets/natija.dart';
+import './widgets/savol.dart';
+import './widgets/natija.dart';
 
 void main() {
   runApp(MyApp());
